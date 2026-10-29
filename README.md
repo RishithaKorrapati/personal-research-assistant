@@ -162,14 +162,3 @@ Optional: set `VITE_API_BASE=http://localhost:8000/api` in `frontend/.env` if th
 - ChromaDB is pinned to **0.4.x** with `pysqlite3` and `numpy<2` for compatibility.
 - If port **8000** is busy, stop the old process or use another port and update CORS in `backend/main.py` and `frontend/src/api/client.js`.
 
-## Cost (rough)
-
-Per typical session (one paper, ~10 questions): on the order of **$0.10–0.15** in OpenAI usage (embeddings + summaries + answers + citation previews). Export is free (no API).
-
-## License
-
-MIT — see [LICENSE](LICENSE) if present; add a license file if you publish publicly.
-
-## Author
-
-[RishithaKorrapati](https://github.com/RishithaKorrapati)
