@@ -101,8 +101,6 @@ cd backend
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-
 ### 3. Frontend
 
 In a second terminal:
@@ -112,10 +110,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
-Open [http://localhost:5173](http://localhost:5173).
-
-Optional: set `VITE_API_BASE=http://localhost:8000/api` in `frontend/.env` if the API runs elsewhere.
 
 ## Usage
 
